@@ -1,6 +1,10 @@
 <h1 align="center">Thibault Lafaurie</h1>
 
 <p align="center">
+  <code>@Labault</code>
+</p>
+
+<p align="center">
   <em>Developer who turns coffee into features.</em><br>
   Fluent in Docker, PostgreSQL, and PHP at 2 a.m. I build clean apps. Sometimes documented.
 </p>
@@ -65,11 +69,13 @@ chain down to production.
 
 ---
 
-### GitHub stats
+### Currently shipping
 
 <p align="center">
-  <!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=Labault&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="Thibault's GitHub stats" /> -->
-  <img height="250" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Labault&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top languages" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Labault&hide_border=true&bg_color=00000000&color=777BB4&line=FE6A16&point=777BB4&area=true&area_color=FE6A16" alt="Thibault's contribution graph" />
+</p>
+<p align="center">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Labault&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top languages" />
 </p>
 
 ---
