@@ -18,13 +18,13 @@
 ### Who I actually am, jokes aside
 
 Backend developer, **6 years in production** on PHP/Symfony. I spent those years
-building and growing a real product — from gathering requirements to keeping
-legacy alive — migrating a codebase from **PHP 7.0 → 8.3** and **Symfony 2.8 →
+building and growing a real product, from gathering requirements to keeping
+legacy alive, migrating a codebase from **PHP 7.0 → 8.3** and **Symfony 2.8 →
 7.4** without breaking what people depend on.
 
 I care about the parts nobody sees: APIs that don't wake anyone up at night,
 tests you can read like a story, and logs you actually enjoy opening. I'm just
-as comfortable past the code — **Docker, FrankenPHP, Caddy/Traefik, CI/CD,
+as comfortable past the code **Docker, FrankenPHP, Caddy/Traefik, CI/CD,
 self-hosted deployment on a VPS**. Backend forever, but I like owning the whole
 chain down to production.
 
@@ -67,7 +67,7 @@ with real users and a real billing model — not a toy. The interesting engineer
 
 - An **IRT / Rasch psychometric engine** that calibrates every exercise to pinpoint
   a student's actual gaps, not just their grades.
-- **Milo**, an AI tutor that never gives the answer — graded hints, prompt-injection
+- **Milo**, an AI tutor that never gives the answer, graded hints, prompt-injection
   filtering, aligned with the official national curriculum.
 - **MiloTalk**: spoken answers transcribed by a **self-hosted Whisper** — the child's
   voice never leaves our European servers, audio destroyed right after transcription.
@@ -102,7 +102,7 @@ with real users and a real billing model — not a toy. The interesting engineer
 
 ### Let's talk
 
-I'm open to projects — backend, infra, or the whole pipeline.
+I'm open to projects backend, infra, or the whole pipeline.
 
 📫 **[contact@labault.dev](mailto:contact@labault.dev)** &nbsp;·&nbsp;
 🌐 **[labault.dev](https://labault.dev)** &nbsp;·&nbsp;
