@@ -86,6 +86,7 @@ with real users and a real billing model — not a toy. The interesting engineer
 | 🤫 **[Hush](https://github.com/Labault/Hush)** · [live](https://hush.labault.dev) | A timer that scores how long you stay away | Server-authoritative anti-cheat, no-login leaderboard |
 | 🚀 **[push-to-deploy](https://github.com/Labault/push-to-deploy)** | Self-hosted single-VPS deployment platform | Caddy reverse proxy, webhook CD, encrypted backups |
 | 💻 **[mac-dev-setup](https://github.com/Labault/mac-dev-setup)** | One-command macOS dev environment | Homebrew, Zsh, PHP/Symfony, small rituals |
+| 🧰 **[bootstrap-web-setup](https://github.com/Labault/bootstrap-web-setup)** | Scaffolds code-quality config into a fresh project | PHPStan lvl 9, Rector, PHP-CS-Fixer, `.bootstrap.yaml` |
 
 ---
 
