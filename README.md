@@ -17,7 +17,7 @@
 
 ### Who I actually am, jokes aside
 
-Backend developer, **6 years in production** on PHP/Symfony. I spent those years
+Backend developer, **7 years in production** on PHP/Symfony. I spent those years
 building and growing a real product, from gathering requirements to keeping
 legacy alive, migrating a codebase from **PHP 7.0 → 8.3** and **Symfony 2.8 →
 7.4** without breaking what people depend on.
