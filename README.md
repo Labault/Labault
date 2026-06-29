@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  🐥 <strong>Quack quack</strong> · 📍 Clermont-Ferrand, France
+  🐥 <strong>Quack quack</strong> · 📍 Clermont-Ferrand, France · 🌐 <a href="https://labault.dev"><strong>labault.dev</strong></a>
 </p>
 
 ---
@@ -50,6 +50,11 @@ chain down to production.
 ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat&logo=traefikproxy&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
+**Observability** &nbsp;
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+
 **Also** &nbsp;
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
@@ -84,9 +89,14 @@ with real users and a real billing model, not a toy. The interesting engineering
 | ------- | ---------- | --------------- |
 | 🎯 **[Red Flag Bingo](https://github.com/Labault/red-flag-bingo)** · [live](https://redflagbingo.fun) | Real-time collaborative bingo for dating red flags | Mercure live sync inside FrankenPHP, worker mode |
 | 🤫 **[Hush](https://github.com/Labault/Hush)** · [live](https://hush.labault.dev) | A timer that scores how long you stay away | Server-authoritative anti-cheat, no-login leaderboard |
-| 🚀 **[push-to-deploy](https://github.com/Labault/push-to-deploy)** | Self-hosted single-VPS deployment platform | Caddy reverse proxy, webhook CD, encrypted backups |
+| 🦆 **[Le Canard du Vendredi](https://tibec.labault.dev)** · live | A duck that wakes up on Fridays to remind you not to deploy | Real-time Mercure, hardened multi-stage container, restic backups, full OTel/Grafana stack |
+| 🚀 **[push-to-deploy](https://github.com/Labault/push-to-deploy)** | Self-hosted single-VPS deployment platform | Caddy reverse proxy, HMAC webhook CD, encrypted backups |
+| 🖥️ **[server-setup](https://github.com/Labault/server-setup)** | Turns a bare VPS into a production-ready host | Server provisioning and hardening, the boring infra nobody documents |
 | 💻 **[mac-dev-setup](https://github.com/Labault/mac-dev-setup)** | One-command macOS dev environment | Homebrew, Zsh, PHP/Symfony, small rituals |
 | 🧰 **[bootstrap-web-setup](https://github.com/Labault/bootstrap-web-setup)** | Scaffolds code-quality config into a fresh project | PHPStan lvl 9, Rector, PHP-CS-Fixer, `.bootstrap.yaml` |
+| 🧩 **[labault-marketplace](https://github.com/Labault/labault-marketplace)** | My Claude Code plugin marketplace, PHP/Symfony-focused | `symfony-forge`: bootstrap skill, reviewer agent, `/quality-gate` command |
+
+<sub><strong>mac-dev-setup → bootstrap-web-setup → server-setup → push-to-deploy</strong>: from a fresh laptop to production on a single VPS, owned end to end. No PaaS, no Kubernetes, no Friday.</sub>
 
 ---
 
@@ -109,4 +119,4 @@ I'm open to projects backend, infra, or the whole pipeline.
 🌐 **[labault.dev](https://labault.dev)** &nbsp;·&nbsp;
 💼 **[LinkedIn](https://www.linkedin.com/in/thibault-lafaurie-143690151/)**
 
-<sub><em>Never a deploy on a Friday.</em></sub>
+<sub><em>Never a deploy on a Friday. <a href="https://tibec.labault.dev">The duck is watching</a>. 🦆</em></sub>
