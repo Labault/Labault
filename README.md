@@ -89,7 +89,9 @@ with real users and a real billing model, not a toy. The interesting engineering
 | ------- | ---------- | --------------- |
 | 🎯 **[Red Flag Bingo](https://github.com/Labault/red-flag-bingo)** · [live](https://redflagbingo.fun) | Real-time collaborative bingo for dating red flags | Mercure live sync inside FrankenPHP, worker mode |
 | 🤫 **[Hush](https://github.com/Labault/Hush)** · [live](https://hush.labault.dev) | A timer that scores how long you stay away | Server-authoritative anti-cheat, no-login leaderboard |
-| 🦆 **[Le Canard du Vendredi](https://tibec.labault.dev)** · live | A duck that wakes up on Fridays to remind you not to deploy | Real-time Mercure, hardened multi-stage container, restic backups, full OTel/Grafana stack |
+| 🦆 **[Le Canard du Vendredi](https://tibec.labault.dev)** · [live](https://tibec.labault.dev) | A duck that wakes up on Fridays to remind you not to deploy | Real-time Mercure, hardened multi-stage container, restic backups, full OTel/Grafana stack |
+| 🗣️ **[DevSpeak](https://devspeak.labault.dev)** · [live](https://devspeak.labault.dev) | Turns plain sentences into certified senior-engineer jargon | Bullshit-as-a-service, multiple expert personas, one-click copy |
+| 🧠 **[Humelis](https://humelis.labault.dev)** · [live](https://humelis.labault.dev) | Daily mood logging that turns feelings into trends, shareable with a clinician | QR-code clinician pairing, patient owns the data (revocable any time), mood analytics dashboard |
 | 🚀 **[push-to-deploy](https://github.com/Labault/push-to-deploy)** | Self-hosted single-VPS deployment platform | Caddy reverse proxy, HMAC webhook CD, encrypted backups |
 | 🖥️ **[server-setup](https://github.com/Labault/server-setup)** | Turns a bare VPS into a production-ready host | Server provisioning and hardening, the boring infra nobody documents |
 | 💻 **[mac-dev-setup](https://github.com/Labault/mac-dev-setup)** | One-command macOS dev environment | Homebrew, Zsh, PHP/Symfony, small rituals |
