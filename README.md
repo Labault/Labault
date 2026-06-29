@@ -60,20 +60,20 @@ chain down to production.
 
 ### What I'm building
 
-🎓 **[Docendo](https://docendo.fr)** — *co-founder & backend* · live SaaS
+🎓 **[Docendo](https://docendo.fr)**, *co-founder & backend* · live SaaS
 
 An AI tutor for French primary & middle-school students (CP → 3e). A real product
-with real users and a real billing model — not a toy. The interesting engineering:
+with real users and a real billing model, not a toy. The interesting engineering:
 
 - An **IRT / Rasch psychometric engine** that calibrates every exercise to pinpoint
   a student's actual gaps, not just their grades.
 - **Milo**, an AI tutor that never gives the answer, graded hints, prompt-injection
   filtering, aligned with the official national curriculum.
-- **MiloTalk**: spoken answers transcribed by a **self-hosted Whisper** — the child's
+- **MiloTalk**: spoken answers transcribed by a **self-hosted Whisper**, the child's
   voice never leaves our European servers, audio destroyed right after transcription.
 - Stripe billing, GDPR-first data handling, PWA, OCR homework scanning.
 
-> Built with [@Antho](https://github.com/anthomas63) — private codebase, product is live at
+> Built with [@Antho](https://github.com/anthomas63), private codebase, product is live at
 > **[docendo.fr](https://docendo.fr)**.
 
 ---
