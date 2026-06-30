@@ -33,7 +33,7 @@ chain down to production.
 ### Stack
 
 **Core** &nbsp;
-![PHP](https://img.shields.io/badge/PHP_8.3-777BB4?style=flat&logo=php&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP_8.4-777BB4?style=flat&logo=php&logoColor=white)
 ![Symfony](https://img.shields.io/badge/Symfony_7.4-000000?style=flat&logo=symfony&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Doctrine](https://img.shields.io/badge/Doctrine-FC6A31?style=flat&logo=doctrine&logoColor=white)
