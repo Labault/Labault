@@ -7,7 +7,7 @@
 <p align="center">
   <em>Backend developer, 7 years in production on PHP/Symfony.</em><br>
   Legacy migrations (PHP 7.0 → 8.3, Symfony 2.8 → 7.4), real-time apps, owned end to end down to the VPS.<br>
-  <sub>Turns coffee into features. Fluent in Docker, PostgreSQL, and PHP at 2 a.m. Clean apps, sometimes documented.</sub>
+  <sub>Turns coffee into features. Fluent in Docker, PostgreSQL, and PHP at 2 a.m. Clean apps, documented decisions.</sub>
 </p>
 
 <p align="center">
@@ -85,17 +85,24 @@ with real users and a real billing model, not a toy. The interesting engineering
 
 ### Things I've built solo
 
+**Live apps**, real users, shipped solo. Roughly ordered by how much backend runs underneath:
+
 | Project | What it is | Stack highlight |
 | ------- | ---------- | --------------- |
 | 🎯 **[Red Flag Bingo](https://github.com/Labault/red-flag-bingo)** · [live](https://redflagbingo.fun) | Real-time collaborative bingo for dating red flags | Mercure live sync inside FrankenPHP, worker mode |
+| 🦆 **[Le Canard du Vendredi](https://github.com/Labault/FridayDuck)** · [live](https://tibec.labault.dev) | A duck that wakes up on Fridays to remind you not to deploy | Real-time Mercure, hardened multi-stage container, restic backups, full OTel/Grafana stack |
 | 🤫 **[Hush](https://github.com/Labault/Hush)** · [live](https://hush.labault.dev) | A timer that scores how long you stay away | Server-authoritative anti-cheat, no-login leaderboard |
-| 🦆 **[Le Canard du Vendredi](https://tibec.labault.dev)** · [live](https://tibec.labault.dev) | A duck that wakes up on Fridays to remind you not to deploy | Real-time Mercure, hardened multi-stage container, restic backups, full OTel/Grafana stack |
-| 🗣️ **[DevSpeak](https://devspeak.labault.dev)** · [live](https://devspeak.labault.dev) | Turns plain sentences into certified senior-engineer jargon | Bullshit-as-a-service, multiple expert personas, one-click copy |
 | 🧠 **[Humelis](https://humelis.labault.dev)** · [live](https://humelis.labault.dev) | Daily mood logging that turns feelings into trends, shareable with a clinician | QR-code clinician pairing, patient owns the data (revocable any time), mood analytics dashboard |
-| 🚀 **[push-to-deploy](https://github.com/Labault/push-to-deploy)** | Self-hosted single-VPS deployment platform | Caddy reverse proxy, HMAC webhook CD, encrypted backups |
-| 🖥️ **[server-setup](https://github.com/Labault/server-setup)** | Turns a bare VPS into a production-ready host | Server provisioning and hardening, the boring infra nobody documents |
+| 🗣️ **[DevSpeak](https://devspeak.labault.dev)** · [live](https://devspeak.labault.dev) | Turns plain sentences into certified senior-engineer jargon | Bullshit-as-a-service, multiple expert personas, one-click copy |
+
+**Toolchain** that ships the rest:
+
+| Project | What it is | Stack highlight |
+| ------- | ---------- | --------------- |
 | 💻 **[mac-dev-setup](https://github.com/Labault/mac-dev-setup)** | One-command macOS dev environment | Homebrew, Zsh, PHP/Symfony, small rituals |
 | 🧰 **[bootstrap-web-setup](https://github.com/Labault/bootstrap-web-setup)** | Scaffolds code-quality config into a fresh project | PHPStan lvl 9, Rector, PHP-CS-Fixer, `.bootstrap.yaml` |
+| 🖥️ **[server-setup](https://github.com/Labault/server-setup)** | Turns a bare VPS into a production-ready host | Server provisioning and hardening, the boring infra nobody documents |
+| 🚀 **[push-to-deploy](https://github.com/Labault/push-to-deploy)** | Self-hosted single-VPS deployment platform | Caddy reverse proxy, HMAC webhook CD, encrypted backups |
 | 🧩 **[labault-marketplace](https://github.com/Labault/labault-marketplace)** | My Claude Code plugin marketplace, PHP/Symfony-focused | `symfony-forge`: bootstrap skill, reviewer agent, `/quality-gate` command |
 
 <sub><strong>mac-dev-setup → bootstrap-web-setup → server-setup → push-to-deploy</strong>: from a fresh laptop to production on a single VPS, owned end to end. No PaaS, no Kubernetes, no Friday.</sub>
@@ -106,9 +113,6 @@ with real users and a real billing model, not a toy. The interesting engineering
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Labault&hide_border=true&bg_color=00000000&color=777BB4&line=FE6A16&point=777BB4&area=true&area_color=FE6A16" alt="Thibault's contribution graph" />
-</p>
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Labault&layout=compact&hide_border=true&langs_count=8&theme=transparent" alt="Top languages" />
 </p>
 
 ---
