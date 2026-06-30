@@ -5,8 +5,9 @@
 </p>
 
 <p align="center">
-  <em>Developer who turns coffee into features.</em><br>
-  Fluent in Docker, PostgreSQL, and PHP at 2 a.m. I build clean apps. Sometimes documented.
+  <em>Backend developer, 7 years in production on PHP/Symfony.</em><br>
+  Legacy migrations (PHP 7.0 → 8.3, Symfony 2.8 → 7.4), real-time apps, owned end to end down to the VPS.<br>
+  <sub>Turns coffee into features. Fluent in Docker, PostgreSQL, and PHP at 2 a.m. Clean apps, sometimes documented.</sub>
 </p>
 
 <p align="center">
@@ -17,10 +18,9 @@
 
 ### Who I actually am, jokes aside
 
-Backend developer, **7 years in production** on PHP/Symfony. I spent those years
-building and growing a real product, from gathering requirements to keeping
-legacy alive, migrating a codebase from **PHP 7.0 → 8.3** and **Symfony 2.8 →
-7.4** without breaking what people depend on.
+Those **7 years** went into building and growing one real product: gathering
+requirements, keeping legacy alive, and migrating a codebase from **PHP 7.0 →
+8.3** and **Symfony 2.8 → 7.4** without breaking what people depend on.
 
 I care about the parts nobody sees: APIs that don't wake anyone up at night,
 tests you can read like a story, and logs you actually enjoy opening. I'm just
