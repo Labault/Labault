@@ -112,6 +112,17 @@ choose to share them with. The interesting engineering:
 
 ---
 
+### Production projects on hold
+
+Projects I've set aside to focus on other work.
+
+| Project | What it is | Stack highlight |
+| ------- | ---------- | --------------- |
+| 🎓 **[Docendo](https://github.com/Labault/Docendo)** · [website](https://docendo.fr) | An AI tutor for French primary and middle-school students, built as co-founder and backend developer | IRT / Rasch exercise calibration, guided AI hints, self-hosted Whisper, Stripe billing |
+| 🎟️ **Lootify** · private codebase | A hyperlocal marketplace where customers reserve limited local offers and redeem them with a QR code | Consumer and merchant PWAs, Symfony / Hotwire, PostGIS search, Mercure reservation updates |
+
+---
+
 ### Currently shipping
 
 <p align="center">
