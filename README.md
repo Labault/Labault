@@ -65,35 +65,38 @@ chain down to production.
 
 ### What I'm building
 
-🎓 **[Docendo](https://docendo.fr)**, *co-founder & backend* · live SaaS
+🌿 **Tartory** · private codebase, active development
 
-An AI tutor for French primary & middle-school students (CP → 3e). A real product
-with real users and a real billing model, not a toy. The interesting engineering:
+A self-hosted health journal for nutrition, training and mood. Meals, workouts,
+sleep and habits in one place, with a practitioner portal for the people you
+choose to share them with. The interesting engineering:
 
-- An **IRT / Rasch psychometric engine** that calibrates every exercise to pinpoint
-  a student's actual gaps, not just their grades.
-- **Milo**, an AI tutor that never gives the answer, graded hints, prompt-injection
-  filtering, aligned with the official national curriculum.
-- **MiloTalk**: spoken answers transcribed by a **self-hosted Whisper**, the child's
-  voice never leaves our European servers, audio destroyed right after transcription.
-- Stripe billing, GDPR-first data handling, PWA, OCR homework scanning.
+- **Patient-controlled sharing**, scoped by domain and revocable at any time.
+  Practitioners only see what the patient chose to share.
+- **Sauge**, an optional AI assistant grounded in the journal, with explicit
+  consent, rate limits and cost caps. No API key, the journal still works.
+- A **React / TypeScript PWA** and a **Symfony API**, served from one origin by
+  FrankenPHP, with PostgreSQL, Redis and Messenger underneath.
+- Stripe subscriptions, a webhook event ledger, and a GDPR export that includes
+  the journal and AI conversations.
 
-> Built with [@Antho](https://github.com/anthomas63), private codebase, product is live at
-> **[docendo.fr](https://docendo.fr)**.
+> Health data belongs to the person living it. The architecture follows suit.
 
 ---
 
 ### Things I've built solo
 
-**Live apps**, real users, shipped solo. Roughly ordered by how much backend runs underneath:
+**Apps and client sites**, built solo. Roughly ordered by how much backend runs underneath:
 
 | Project | What it is | Stack highlight |
 | ------- | ---------- | --------------- |
 | 🎯 **[Red Flag Bingo](https://github.com/Labault/red-flag-bingo)** · [live](https://redflagbingo.fun) | Real-time collaborative bingo for dating red flags | Mercure live sync inside FrankenPHP, worker mode |
 | 🦆 **[Le Canard du Vendredi](https://github.com/Labault/FridayDuck)** · [live](https://tibec.labault.dev) | A duck that wakes up on Fridays to remind you not to deploy | Real-time Mercure, hardened multi-stage container, restic backups, full OTel/Grafana stack |
 | 🤫 **[Hush](https://github.com/Labault/Hush)** · [live](https://hush.labault.dev) | A timer that scores how long you stay away | Server-authoritative anti-cheat, no-login leaderboard |
-| 🧠 **[Humelis](https://humelis.labault.dev)** · [live](https://humelis.labault.dev) | Daily mood logging that turns feelings into trends, shareable with a clinician | QR-code clinician pairing, patient owns the data (revocable any time), mood analytics dashboard |
+| 📚 **[Whykipédia](https://whykipedia.xyz)** · [live](https://whykipedia.xyz) | A true-or-false quiz with Wikipedia sources. Guess first, read the explanation after | React PWA, Symfony API, anonymous players, server-validated answers and streaks |
 | 🗣️ **[DevSpeak](https://devspeak.labault.dev)** · [live](https://devspeak.labault.dev) | Turns plain sentences into certified senior-engineer jargon | Bullshit-as-a-service, multiple expert personas, one-click copy |
+| 🥾 **[LOLV · Là Où L’on Va](https://lolv.labault.dev)** · [live](https://lolv.labault.dev) | A client website for guided hikes in Auvergne | Custom WordPress block theme, dedicated hiking plugin, self-hosted deployment |
+| 🖋️ **[Vlad](https://shanna.labault.dev)** · [live](https://shanna.labault.dev) | A tattoo artist’s website with a portfolio, flash catalogue and a hidden collective drawing | Custom WordPress block theme, business plugin, guarded deployment |
 
 **Toolchain** that ships the rest:
 
