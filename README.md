@@ -126,7 +126,11 @@ Projects I've set aside to focus on other work.
 ### Currently shipping
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Labault&hide_border=true&bg_color=00000000&color=777BB4&line=FE6A16&point=777BB4&area=true&area_color=FE6A16" alt="Thibault's contribution graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/activity-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity/activity-light.svg" />
+    <img src="./assets/activity/activity-light.svg" alt="Thibault’s GitHub contributions over the last 90 days, with a seven-day moving average" width="1000" />
+  </picture>
 </p>
 
 ---

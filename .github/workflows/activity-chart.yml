@@ -1,0 +1,71 @@
+name: Update activity chart
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/activity-chart.yml
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: activity-chart
+  cancel-in-progress: false
+
+jobs:
+  chart:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Generate dark chart
+        uses: dturovskiy/deus-commit-chart@eddf908ead0a83361f4a4e2930405ce30fd3d086 # v1
+        with:
+          default-days: '90'
+          hide-border: 'true'
+          layout: comfortable
+          output-dir: activity-dist/dark
+          ranges: '90'
+          theme: github-compact
+          title: Contribution activity
+          token: ${{ secrets.ACTIVITY_GRAPH_TOKEN || github.token }}
+          username: ${{ github.repository_owner }}
+
+      - name: Generate light chart
+        uses: dturovskiy/deus-commit-chart@eddf908ead0a83361f4a4e2930405ce30fd3d086 # v1
+        with:
+          default-days: '90'
+          hide-border: 'true'
+          layout: comfortable
+          output-dir: activity-dist/light
+          ranges: '90'
+          theme: github-light
+          title: Contribution activity
+          token: ${{ secrets.ACTIVITY_GRAPH_TOKEN || github.token }}
+          username: ${{ github.repository_owner }}
+
+      - name: Publish charts
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          mkdir -p assets/activity
+          cp activity-dist/dark/activity-90d.svg assets/activity/activity-dark.svg
+          cp activity-dist/light/activity-90d.svg assets/activity/activity-light.svg
+          git add -- assets/activity/activity-dark.svg assets/activity/activity-light.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m '📊 chore: refresh contribution charts'
+          git push origin "HEAD:$DEFAULT_BRANCH"
